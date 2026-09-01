@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Course projects and iArt projects
+description:
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [UG and iArt, MS]
 horizontal: false
 ---
 
