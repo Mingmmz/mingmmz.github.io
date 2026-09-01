@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit:  # leave blank to include all the news in the `_news` folder
 
 # latest_posts:
 #   enabled: true
@@ -27,8 +27,8 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a 1st-year CSE PhD student at [Aml Lab](https://ambient-intelligence-lab-umich-eecs.github.io/ami_lab_website/) and [SIX Lab](https://sixlab-eecs.com/) at University of Michigan-Ann Arbor, advised by [Prof. Ke Sun](https://samsonsjarkal.github.io/KeSun/) and [Prof. Junyi Zhu](https://www.junyizhu.com/).
-My research interests lie in exploring various sensing technologies and creating innovative wearable, particularly for healthcare applications.
+I am a 1st-year CSE PhD student at University of Michigan-Ann Arbor, advised by [Prof. Ke Sun](https://samsonsjarkal.github.io/KeSun/) and [Prof. Junyi Zhu](https://www.junyizhu.com/).
+My research interests lie in exploring various **sensing technologies** and creating innovative **wearables**, particularly for **healthcare** applications.
 
 
 Prior to UMich, I worked in [WI Lab](https://wearableintelligencelab.github.io/group_website/index.html) led by [Prof. Yiyue Luo](https://yyueluo.com/) at University of Washington, Seattle (UW). I also worked in[Ubiquitous Computing Lab](https://ubicomplab.cs.washington.edu/), led by [Prof. Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/), and [Prof. Shwetak Patel](https://www.cs.washington.edu/people/faculty/shwetak-patel/).
