@@ -3,27 +3,27 @@
 
 @article{moon2026closed,
   title={A Closed-Loop CPR Training Glove with Integrated Tactile Sensing and Haptic Feedback},
-  author={Moon*, Jaeyoung and Ma, Mingzhuo* and Yang, Qifeng and Choi, Youjin and Hwang, Seokhyun and Burden, Samuel and Kim, Kyung-Joong and Luo, Yiyue},
+  author={Moon*, Jaeyoung and Ma*, Mingzhuo and Yang, Qifeng and Choi, Youjin and Hwang, Seokhyun and Burden, Samuel and Kim, Kyung-Joong and Luo, Yiyue},
   abstract={Cardiopulmonary resuscitation (CPR) is a critical life-saving procedure, and effective training benefits from self-directed practice beyond instructor-led sessions. In this paper, we propose a closed-loop CPR training glove that integrates a high-resolution tactile sensing array and vibrotactile actuators for self-directed practice. The tactile sensing array measures distributed pressures across the palm and dorsum to enable real-time estimation of compression rate, force, and hand pose. Based on these estimations, the glove delivers immediate haptic feedback to guide the user for proper CPR, reducing reliance on external audio-visual displays. We quantified the tactile sensor performance by measuring wide-range sensitivity (~0.85 over 0-600 N), computing hysteresis (56.04%), testing stability (11.05% drift over 300 cycles), and estimating global signal-to-noise ratio (18.90 +/- 2.41 dB at 600 N). Our closed-loop pipeline provides continuous modeling and feedback of key performance metrics essential for high-quality CPR. Our lightweight statistical models achieves >92% accuracy for force estimation and hand pose classification within sub-millisecond inference time. Our user study (N=8) showed that haptic feedback reduced visual distraction compared to audio-visual cues, though simplified patterns were required for reliable perception under dynamic load. These results highlight the feasibility of the proposed system and offer design insights for future haptic CPR self-training system.},
-  journal={IEEE International Conference on Robotics and Automation (ICRA)},
+  journal={IEEE ICRA},
   year={2026},
   doi= {10.48550/arXiv.2603.05793},
   url={https://doi.org/10.48550/arXiv.2603.05793},
   website = {https://moon920110.github.io/TactileCPR_ICRA2026/},
-  preview = {},
+  preview = {CPR.png},
   selected= {true},
 }
 
 @inproceedings{ma2025braillerhythm,
   title={BrailleRhythm: Enhancing Braille Character Recognition and Learning via Real-time Tactile Sensing and Audio Feedback},
   author={Ma, Mingzhuo and Lai, Helen and Luo, Yiyue},
-  journal={Adjunct Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology (UIST)},
+  journal={ACM UIST},
   pages={1--3},
   year={2025},
   abstract={To address the challenge of mapping tactile patterns to language in early Braille education, we propose BrailleRhythm, an interactive system that overlays a flexible piezoresistive sensor sheet onto customized Braille cards. Real‐time auditory cues delivered via the Web Speech API vocalize detected characters and assembled words, reinforcing phonological associations during both sliding exploration and pressing confirmation. Unlike translation‐focused or robotic sensing tools, BrailleRhythm is optimized specifically for human learners on a low‐cost, extensible platform. The design supports rapid prototyping of embedded on‐device processing and leverages tangible word construction to deepen sensorimotor engagement. Future work will include formal usability evaluations and integration of multilingual Braille standards to broaden accessibility and educational impact.},
   doi= {10.1145/3746058.3758349},
   url={https://doi.org/10.1145/3746058.3758349},
-  preview = {},
+  preview = {Braille.png},
   selected= {true},
 }
 
@@ -38,15 +38,15 @@
   url = {https://doi.org/10.1145/3770671},
   doi = {10.1145/3770671},
   abstract = {Fetal heart rate (FHR) monitoring is critical for prenatal care, yet current methods rely on expensive, specialized equipment and trained personnel, limiting accessibility in low-resource and at-home settings. We present DopFone, a novel approach leveraging the built-in speaker and microphone of commodity smartphones to non-invasively estimate FHR via Doppler-based audio sensing. Our system emits an 18 kHz low-pitched ultrasound from the smartphone speaker and analyzes reflected signals recorded by the microphone to detect abdominal surface vibrations caused by fetal cardiac activity. Combining Doppler sensing with an AdaBoost regression model (validated via Leave-One-Out Cross-Validation on 23 pregnant participants), DopFone achieved a mean absolute error of 2.1±1.3 BPM compared to a reference-standard medical Doppler device. The 95\% limits of agreement (±4.90 BPM) fall well within the clinically acceptable threshold of ±8 BPM. The system demonstrated robustness across gestational ages (19-39 weeks), maternal BMI (23-67 kg/m2), and variations in phone positioning. Our results establish that smartphones can deliver clinically reliable FHR estimation without external hardware, gel, or probes, bridging the gap between clinical monitoring and accessible at-home assessment.},
-  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)},
-  preview = {},
+  journal={ACM IMWUT},
+  preview = {DopFone.png},
   selected= {true},
 }
 
 @inproceedings{zhang2022good,
   title={Good Generalization on Face-Mask Detection Based on Simple Convolutional Neural Network},
   author={Zhang, Zhouhong and Ma, Mingzhuo and Zhang, Hengbin and Lv, Lei and Wang, Hongyu and Toe, Teoh Teik},
-  booktitle={2022 IEEE 10th Joint International Information Technology and Artificial Intelligence Conference (ITAIC)},
+  booktitle={IEEE ITAIC},
   volume={10},
   pages={1004--1009},
   year={2022},
@@ -54,6 +54,6 @@
   abstract={Coronavirus pandemics have influenced people's daily life seriously since 2019. Authorized organizations suggested people wear a mask in public areas can significantly reduce the probability of getting infected. Thus, we proposed a method based on a simple convolutional neural network (CNN) to perform mask detection. The whole developing process was divided into two stages and mainly used three datasets (dataset 1, dataset 2 and dataset 3). Dataset 1 has images of people with and without masks. Dataset 2 and dataset 3 have one more category-images of people wearing masks incorrectly. The first stage was to train the model based on dataset 1 and it achieved 100% accuracy on validation set. It could also be applied to another two similar datasets without any training on them with accuracy 73.55% and 66.80% respectively. In the second stage, to detect people wearing masks incorrectly, the same model was trained based on dataset 2. The accuracy of this model reached 99.34%. However, when applying it directly to dataset 3, only 44.50% accuracy was achieved. To improve the accuracy, the distribution of dataset 2 and dataset 3 was rearranged. Finally, the accuracy of the model for dataset 3 was nearly 80%. We concluded that generally deep learning models would have better generalization on mask-detection tasks and our model was good at handling two-label mask dataset.},
   doi={10.1109/ITAIC54216.2022.9836686},
   url={https://ieeexplore.ieee.org/document/9836686},
-  preview={},
+  preview={face-mask.png},
   selected={false}
 }
