@@ -14,7 +14,7 @@ profile:
   #   <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -38,6 +38,19 @@ I received my B.S. degree in EEE jointly offered by the University of Electronic
 China (UESTC) and the University of Glasgow (UoG) in 2023, minoring in Interactive New Media Art (iArt), advised by [Prof. Lina Mohjazi](https://www.gla.ac.uk/schools/engineering/staff/linamohjazi/#biography,researchinterests).
 
 Beyond engineering, I also designed an art installation "Soft Machine", an interactive music game "Five Notes", and a Roblox maze FPS game "Find your Sister!". I attended the Chengdu Transcendental Implant Art Exhibition held by UESTC and Chongqing Times Art Museum as a young artist and interviewed by Chengdu TV in 2021.
+
+<div class="social">
+  <div class="contact-icons">
+    {% social_links %}
+  </div>
+</div>
+
+<style>
+  .news .table-responsive {
+    max-height: 320px !important;
+    overflow-y: auto !important;
+  }
+</style>
 
 <!-- # Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
