@@ -4,8 +4,8 @@
 
 title:  blank # the website title (if blank, full name will be used instead)
 first_name: Mingzhuo
-middle_name: Ma
-last_name: 马铭卓
+middle_name: 
+last_name: Ma
 contact_note: 
 # >
 # You can even add a little note about which of these is the best way to reach you.
@@ -360,8 +360,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  # last_name: [Einstein]
-  first_name: [Mingzhuo]
+  last_name: [Ma]
+  first_name: [Mingzhuo, M.]
 
   style: apa
   locale: en
