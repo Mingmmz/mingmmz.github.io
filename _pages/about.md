@@ -69,7 +69,7 @@ Beyond engineering, I also designed an art installation "Soft Machine", an inter
 
 /* optional: slightly smaller icons */
 .profile .profile-social .contact-icons a {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 /* News scrolling */
