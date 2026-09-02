@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: [UG and iArt, MS]
+display_categories: [MS, UG and iArt]
 horizontal: false
 ---
 
