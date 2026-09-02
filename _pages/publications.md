@@ -65,7 +65,8 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 <p>
-  <strong>*</strong> Equal contribution     <strong>†<strong> Co-corresponding authors
+  <strong>*</strong> Equal contribution &nbsp;&nbsp;
+  <strong>†</strong> Co-corresponding author
 </p>
 
 <!-- Bibsearch Feature -->
