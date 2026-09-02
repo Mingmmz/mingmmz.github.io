@@ -8,6 +8,88 @@ category: MS
 related_publications: false
 ---
 
+This is an **EE598 Capstone Project with Novo Nordisk** to develop a software platform for sickle cell disease (SCD) patients to find their best-matched healthcare providers and receive support from online communities.
+
+I led a team of seven graduate and undergraduate students and served as the **Point of Contact (PoC), UX/UI Designer, and Machine Learning Engineer** during this project.
+
+Key skills and tools included **UX/UI design, Figma, Python, and recommender systems**.
+
+---
+
+## Software Interaction Demo
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <video controls class="w-100 rounded z-depth-1">
+      <source src="{{ '/assets/img/projects/scd/SCD-demo.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<div class="caption">
+Software interaction demo of the SCD patient-provider matching platform.
+</div>
+
+---
+
+## Presentation Video
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <video controls class="w-100 rounded z-depth-1">
+      <source src="{{ '/assets/img/projects/scd/SCD-video.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<div class="caption">
+Project presentation introducing the motivation, system design, and implementation.
+</div>
+
+---
+
+## Poster
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-12 mt-3 mt-md-0">
+    <iframe
+      src="{{ '/assets/img/projects/scd/2024 ENGINE Showcase Horizontal Poster.pdf' | relative_url }}"
+      width="100%"
+      height="900px"
+      style="border: none;"
+      class="rounded z-depth-1">
+    </iframe>
+  </div>
+</div>
+
+<div class="caption">
+Poster presented at the 2024 UW ENGINE Showcase.
+</div>
+
+---
+
+## 2024 UW ENGINE Showcase
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/projects/scd/20240528_215431227_iOS.jpg"
+      title="Mingzhuo Ma presenting the SCD project at the 2024 UW ENGINE Showcase"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+</div>
+
+<div class="caption">
+Presenting the SCD Patient/Provider Match Tool at the 2024 UW ENGINE Showcase.
+</div>
+
+
+
+<!-- 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
@@ -20,6 +102,7 @@ To give your project a background in the portfolio page, just add the img tag to
     description: a project with a background image
     img: /assets/img/12.jpg
     ---
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -78,4 +161,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->

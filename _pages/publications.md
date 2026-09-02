@@ -9,9 +9,9 @@ nav_order: 2
 <style>
 @media (min-width: 576px) {
   .publications .abbr {
-    flex: 0 0 270px !important;
-    width: 270px !important;
-    max-width: 270px !important;
+    flex: 0 0 250px !important;
+    width: 250px !important;
+    max-width: 250px !important;
   }
 
   .publications .abbr + .col-sm-8 {
@@ -30,7 +30,7 @@ nav_order: 2
 
 .publications .author em,
 .publications .author em a {
-  font-weight: 600 !important;
+  font-weight: 400 !important;
   font-style: normal !important;
 }
 </style>
