@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multifunctional Robot Design (UESTC-UoGJEP Creative Lab)
-description: A smart car for tracking, crossing bridge, and transporting a ball to a target location by Autonomous Control Design and ML Coding.								
+description: A smart car for tracking, crossing bridge, and transporting a ball to a target location by Autonomous Control Design and ML Coding (2022)				
 img: assets/img/projects/4 smart-car/IMG_7064.JPG
 importance: 2
 category: UG & iArt

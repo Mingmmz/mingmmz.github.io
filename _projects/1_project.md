@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LunarLink
-description: A Sickle Cell Disease Patient/Provider Match Tool for SCD patients to find their best-matched providers and get support from online communities
+description: A Sickle Cell Disease Patient/Provider Match Tool for SCD patients to find their best-matched providers and get support from online communities (2024)
 img: assets/img/SCD-cover.JPG
 importance: 1
 category: MS
@@ -12,10 +12,32 @@ related_publications: false
 
 This is an **EE598 Capstone Project with Novo Nordisk** to develop a software platform for sickle cell disease (SCD) patients to find their best-matched healthcare providers and receive support from online communities.
 
+<style>
+.project-overview-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.project-overview-card .card-body {
+  padding: 1.25rem;
+}
+
+.project-overview-card .card-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.project-overview-card .card-text {
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+</style>
+
 <div class="row mt-3 mb-4">
 
   <div class="col-sm-4 mt-3 mt-md-0">
-    <div class="card h-100">
+    <div class="card h-100 project-overview-card">
       <div class="card-body">
         <h5 class="card-title"><strong>Role</strong></h5>
         <p class="card-text">
@@ -28,18 +50,24 @@ This is an **EE598 Capstone Project with Novo Nordisk** to develop a software pl
   </div>
 
   <div class="col-sm-4 mt-3 mt-md-0">
-    <div class="card h-100">
+    <div class="card h-100 project-overview-card">
       <div class="card-body">
         <h5 class="card-title"><strong>Team</strong></h5>
         <p class="card-text">
-          Led a team of 7 graduate and undergraduate students
+          Mingzhuo Ma<br>
+          Mo Kahil<br>
+          Jason Tran<br>
+          Jingxian Chen<br>
+          Bowen Shu<br>
+          Chengyuan Guo<br>
+          Yangyang Wu
         </p>
       </div>
     </div>
   </div>
 
   <div class="col-sm-4 mt-3 mt-md-0">
-    <div class="card h-100">
+    <div class="card h-100 project-overview-card">
       <div class="card-body">
         <h5 class="card-title"><strong>Skills</strong></h5>
         <p class="card-text">

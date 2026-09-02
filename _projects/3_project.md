@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Real-time Breath Monitoring through Smart Fashion
-description: A real-time breath monitoring smart necklace to detect sleep apnea and hyperventilation using ESP32C3 and accelerometer with up to 75% accuracy.
+description: A real-time breath monitoring smart necklace to detect sleep apnea and hyperventilation using ESP32C3 and accelerometer with up to 75% accuracy (2023)
 img: assets/img/projects/5 breath/IMG_7119.JPG
 # redirect: https://www.wikipedia.org/
 importance: 1
@@ -106,7 +106,7 @@ Hardware and software architecture of the wearable breathing-monitoring system.
     <iframe
       src="{{ '/assets/img/projects/5 breath/FYP_Poster_Mingzhuo_Ma.pdf' | relative_url }}"
       width="100%"
-      height="900"
+      height="700"
       style="border: none;"
       class="rounded z-depth-1">
     </iframe>

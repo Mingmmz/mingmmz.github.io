@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Soft Machine
-description: An interactive art installation breaking the stereotype of cold machine and expressing the integration of art and engineering, humane and machine, through Arduino Uno, ultrasonic-wave sensors, and servo motors
+title: Soft Machine 
+description: An interactive art installation breaking the stereotype of cold machine and expressing the integration of art and engineering, humane and machine, through Arduino Uno, ultrasonic-wave sensors, and servo motors (2021)
 img: assets/img/projects/1 soft-machine/IMG_7066.JPG
 importance: 3
 category: UG & iArt
@@ -94,7 +94,7 @@ Through this interaction, *Soft Machine* reflects on the relationship between **
   <div class="col-sm-4 mt-3 mt-md-0">
     {% include figure.liquid
       loading="eager"
-      path="assets/img/projects/1 soft-machine/HA1A0104-1.jpg"
+      path="assets/img/projects/1 soft-machine/HA1A0104(1).jpg"
       title="Soft Machine installation"
       class="img-fluid rounded z-depth-1"
     %}

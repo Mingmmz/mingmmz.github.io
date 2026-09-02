@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bird Migration Visulization
-description: An interactive website to visulaize the migratioin trajectory of Nothern Fulmar, Thick-billed Murress, Northern Pintail, Buff-breasted Sandpiper, and Bar-tailed Godwits.
+description: An interactive website to visulaize the migratioin trajectory of Nothern Fulmar, Thick-billed Murress, Northern Pintail, Buff-breasted Sandpiper, and Bar-tailed Godwits (2024)
 img: assets/img/bird0.JPG
 importance: 2
 category: MS

@@ -31,7 +31,7 @@ I am a 1st-year CSE PhD student at University of Michigan-Ann Arbor, advised by 
 My research interests lie in exploring various **sensing technologies** and creating innovative **wearables**, particularly for **healthcare** applications.
 
 
-Prior to UMich, I worked in [WI Lab](https://wearableintelligencelab.github.io/group_website/index.html) led by [Prof. Yiyue Luo](https://yyueluo.com/) at University of Washington, Seattle (UW). I also worked in[Ubiquitous Computing Lab](https://ubicomplab.cs.washington.edu/), led by [Prof. Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/), and [Prof. Shwetak Patel](https://www.cs.washington.edu/people/faculty/shwetak-patel/).
+Prior to UMich, I worked in [WI Lab](https://wearableintelligencelab.github.io/group_website/index.html) led by [Prof. Yiyue Luo](https://yyueluo.com/) at University of Washington, Seattle (UW). I also worked in [Ubiquitous Computing Lab](https://ubicomplab.cs.washington.edu/), led by [Prof. Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/), and [Prof. Shwetak Patel](https://www.cs.washington.edu/people/faculty/shwetak-patel/).
 
 
 I received my B.S. degree in EEE jointly offered by the University of Electronic and Science Technology of 
@@ -50,6 +50,64 @@ Beyond engineering, I also designed an art installation "Soft Machine", an inter
     max-height: 320px !important;
     overflow-y: auto !important;
   }
+</style>
+
+<style>
+/* ================================
+   Capitalize homepage section titles
+   ================================ */
+
+h2 a[href$="/news/"],
+h2 a[href$="/publications/"] {
+  text-transform: capitalize;
+}
+
+
+/* ================================
+   News scrolling
+   ================================ */
+
+.news .table-responsive {
+  max-height: 320px !important;
+  overflow-y: auto !important;
+}
+
+
+/* ================================
+   Bold my name in publications
+   ================================ */
+
+.publications .author em,
+.publications .author em a {
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+
+/* ================================
+   Larger publication preview images
+   ================================ */
+
+@media (min-width: 576px) {
+  .publications .abbr {
+    flex: 0 0 250px !important;
+    width: 250px !important;
+    max-width: 250px !important;
+  }
+
+  .publications .abbr + .col-sm-8 {
+    flex: 1 1 0 !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+
+  .publications .abbr img.preview {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+}
 </style>
 
 <!-- # Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
