@@ -9,11 +9,11 @@ nav_order: 2
 
 <style>
 .publications .author em {
-  font-weight: 500;
+  font-weight: 300;
 }
 </style>
 
-<style>
+<!-- <style>
 @media (min-width: 576px) {
   .publications .abbr {
     flex: 0 0 25% !important;
@@ -31,19 +31,8 @@ nav_order: 2
     height: auto !important;
   }
 }
-</style>
-
-<!-- <style>
-.publications .preview {
-  width: 180px !important;
-  max-width: 180px !important;
-}
-
-.publications .preview img {
-  width: 180px !important;
-  height: auto !important;
-}
 </style> -->
+
 
 <!-- _pages/publications.md -->
 
