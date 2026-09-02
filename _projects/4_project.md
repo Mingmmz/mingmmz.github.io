@@ -7,74 +7,146 @@ importance: 2
 category: UG & iArt
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This was a **one-year group project** in the UESTC-UoG Joint Educational Program Lab to develop a multifunctional smart car capable of line tracking, bridge crossing, and transporting a ball to a target location through autonomous control and computer vision.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+I was primarily responsible for the **computer vision and tracking module**, using an OpenMV camera and Canny edge detection to estimate the road direction and support autonomous steering.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<style>
+.project-overview-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.project-overview-card .card-body {
+  padding: 1.25rem;
+}
+
+.project-overview-card .card-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.project-overview-card .card-text {
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+</style>
+
+<div class="row mt-3 mb-4">
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="card h-100 project-overview-card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Role</strong></h5>
+        <p class="card-text">
+          Computer Vision Developer<br>
+          Tracking Algorithm Design<br>
+          Embedded Implementation
+        </p>
+      </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="card h-100 project-overview-card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>System</strong></h5>
+        <p class="card-text">
+          Autonomous Smart Car<br>
+          OpenMV Camera<br>
+          Vision-based Navigation
+        </p>
+      </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="card h-100 project-overview-card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Skills</strong></h5>
+        <p class="card-text">
+          OpenMV<br>
+          C Programming<br>
+          Computer Vision<br>
+          Canny Edge Detection
+        </p>
+      </div>
     </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+  </div>
+
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Computer Vision Tracking
+
+Our tracking algorithm was based on **Canny edge detection** and window-based image analysis.
+
+The lower region of each image captured by the OpenMV camera was divided into multiple windows of equal area. For each window, the standard deviation of pixel values was calculated to distinguish the road surface from the surrounding environment.
+
+Regions identified as background or surroundings were discarded, while regions classified as part of the road were retained. The center road region was then selected to estimate the desired travel direction.
+
+Based on the estimated road position, a direction line was generated and used by the autonomous controller to determine whether the smart car should **turn left, turn right, or continue straight**. The position of each selected window also corresponded to an approximate steering angle.
+
+## System and Tracking Results
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-5 mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/projects/4 smart-car/5.png"
+      title="Multifunctional smart car platform"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+
+  <div class="col-sm-7 mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/projects/4 smart-car/1.png"
+      title="Computer vision tracking result"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+Multifunctional smart car platform and an example of the vision-based road tracking algorithm.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<div class="row justify-content-sm-center">
+  <div class="col-sm-5 mt-3 mt-md-0">
+    {% include figure.liquid
+      path="assets/img/projects/4 smart-car/2.png"
+      title="Road detection result"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
 
-{% raw %}
+  <div class="col-sm-7 mt-3 mt-md-0">
+    {% include figure.liquid
+      path="assets/img/projects/4 smart-car/3.png"
+      title="Road tracking and steering estimation"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+</div>
 
-```html
+<div class="caption">
+Examples of road-region identification and steering-direction estimation under different driving conditions.
+</div>
+
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid
+      path="assets/img/projects/4 smart-car/4.png"
+      title="Vision-based tracking algorithm result"
+      class="img-fluid rounded z-depth-1"
+    %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+Visualization of the final road-tracking result used for autonomous steering.
+</div>

@@ -7,74 +7,129 @@ importance: 4
 category: UG & iArt
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Five Notes** is an interactive music game designed to introduce and reinterpret the traditional Chinese musical instrument **Bianzhong (chime bells)** through embodied interaction, sound, and generative visuals.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The project combines embedded sensing, motion-based interaction, and audiovisual design to create a playful experience centered around the ancient Chinese pentatonic scale.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<style>
+.project-overview-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.project-overview-card .card-body {
+  padding: 1.25rem;
+}
+
+.project-overview-card .card-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.project-overview-card .card-text {
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+</style>
+
+<div class="row mt-3 mb-4">
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="card h-100 project-overview-card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Concept</strong></h5>
+        <p class="card-text">
+          Traditional Chinese Music<br>
+          Embodied Interaction<br>
+          Interactive Art
+        </p>
+      </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="card h-100 project-overview-card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Interaction</strong></h5>
+        <p class="card-text">
+          Motion Sensing<br>
+          Gesture-based Control<br>
+          Audiovisual Feedback
+        </p>
+      </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="card h-100 project-overview-card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Tools</strong></h5>
+        <p class="card-text">
+          ESP8266<br>
+          IMU / Gyroscope<br>
+          TouchDesigner<br>
+          After Effects
+        </p>
+      </div>
     </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+  </div>
+
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Project Description
+
+The interaction is built around an **ESP8266-based embedded system** with motion sensing. A gyroscope continuously estimates the orientation and movement of a wine glass, allowing the player's gestures to control musical and visual elements in real time.
+
+The visual environment was created using **TouchDesigner** and **Adobe After Effects**. Rather than following the conventional rhythm-based mechanics of many music games, *Five Notes* emphasizes relaxed, exploratory, and personalized interaction. Players are encouraged to improvise freely through movement, sound, and visual feedback.
+
+To make the experience accessible to people without formal musical training, the interaction is based on the traditional Chinese pentatonic scale:
+
+**Gong · Shang · Jue · Zhi · Yu**
+
+Using only five tones simplifies the musical structure while maintaining a connection to traditional Chinese musical culture.
+
+The use of chime bells as the musical medium is intended to evoke the resonant and lingering character of traditional Bianzhong performances. Gesture-based interaction recreates a sense of freely shaping sound through movement, while the wine glass serves as a playful physical interface inspired by scenes of traditional Chinese banquets and social gatherings.
+
+## Illustration Video
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <div
+      style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"
+      class="rounded z-depth-1"
+    >
+      <iframe
+        src="https://www.youtube.com/embed/l4BTRSXslo8"
+        title="Five Notes Illustration Video"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+Illustration and demonstration of the Five Notes interactive music experience.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## System Design
 
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/projects/3 five-notes/schematic.jpg"
+      title="Five Notes system schematic"
+      class="img-fluid rounded z-depth-1"
+    %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+System schematic showing the embedded sensing and audiovisual interaction pipeline.
+</div>

@@ -8,74 +8,147 @@ category: UG & iArt
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Soft Machine** is an interactive art installation that challenges the stereotype of machines as cold and mechanical. The project explores the intersection of **art and engineering, humanity and machines**, through responsive physical interaction.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The installation combines an **Arduino Uno**, ultrasonic distance sensing, servo actuation, and digitally fabricated structures to create a machine that responds dynamically to people approaching and interacting with it.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<style>
+.project-overview-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  box-shadow: none;
+}
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+.project-overview-card .card-body {
+  padding: 1.25rem;
+}
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+.project-overview-card .card-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+.project-overview-card .card-text {
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+</style>
 
-{% raw %}
+<div class="row mt-3 mb-4">
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="card h-100 project-overview-card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Concept</strong></h5>
+        <p class="card-text">
+          Interactive Art<br>
+          Human–Machine Interaction<br>
+          Art & Engineering
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="card h-100 project-overview-card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Hardware</strong></h5>
+        <p class="card-text">
+          Arduino Uno<br>
+          Ultrasonic Sensors<br>
+          Servo Motors
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="card h-100 project-overview-card">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Skills</strong></h5>
+        <p class="card-text">
+          Arduino IDE<br>
+          Embedded Systems<br>
+          3D Printing<br>
+          Physical Prototyping
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+## Project Description
+
+The installation uses ultrasonic sensors to detect the presence and distance of viewers. These measurements are processed by an Arduino Uno, which controls servo motors to generate responsive physical movements.
+
+Rather than presenting the machine as a rigid or purely functional object, the project explores how motion, material form, and interaction can give a machine a more expressive and human-like presence.
+
+Through this interaction, *Soft Machine* reflects on the relationship between **technology and humanity**, and on how engineering systems can become expressive artistic media.
+
+## Installation
+
+<div class="row">
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/projects/1 soft-machine/HA1A0104-1.jpg"
+      title="Soft Machine installation"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/projects/1 soft-machine/1.jpg"
+      title="Soft Machine installation"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/projects/1 soft-machine/1636947062920.jpg"
+      title="Soft Machine installation"
+      class="img-fluid rounded z-depth-1"
+    %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+Soft Machine installation and interaction setup.
+</div>
+
+<div class="row">
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid
+      path="assets/img/projects/1 soft-machine/mmexport1633072040865.jpg"
+      title="Soft Machine prototype"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid
+      path="assets/img/projects/1 soft-machine/mmexport1633070599063.jpg"
+      title="Soft Machine prototype"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid
+      path="assets/img/projects/1 soft-machine/mmexport1633070664315.jpg"
+      title="Soft Machine prototype"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+</div>
+
+<div class="caption">
+Prototype development and fabrication details of the interactive installation.
+</div>

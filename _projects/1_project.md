@@ -1,16 +1,16 @@
 ---
 layout: page
 title: LunarLink
-description: A Sickle Cell Disease Patient/Provider Match Tool for SCD patients to find their best-matched providers and get support from online communities.
+description: A Sickle Cell Disease Patient/Provider Match Tool for SCD patients to find their best-matched providers and get support from online communities
 img: assets/img/SCD-cover.JPG
 importance: 1
 category: MS
 related_publications: false
 ---
 
-This is an **EE598 Capstone Project with Novo Nordisk** to develop a software platform for sickle cell disease (SCD) patients to find their best-matched healthcare providers and receive support from online communities.
-
 ## Project Overview
+
+This is an **EE598 Capstone Project with Novo Nordisk** to develop a software platform for sickle cell disease (SCD) patients to find their best-matched healthcare providers and receive support from online communities.
 
 <div class="row mt-3 mb-4">
 
@@ -113,13 +113,6 @@ Poster presented at the 2024 UW ENGINE Showcase.
 ## 2024 UW ENGINE Showcase
 
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid
-      loading="eager"
-      path="assets/img/projects/scd/20240528_215431227_iOS.jpg"
-      class="img-fluid rounded z-depth-1"
-    %}
-  </div>
   <div class="col-sm-4 mt-3 mt-md-0">
     {% include figure.liquid
       loading="eager"
@@ -127,7 +120,7 @@ Poster presented at the 2024 UW ENGINE Showcase.
       class="img-fluid rounded z-depth-1"
     %}
   </div>
-  <div class="col-sm-8 mt-3 mt-md-0">
+  <div class="col-sm-4 mt-3 mt-md-0">
     {% include figure.liquid
       loading="eager"
       path="assets/img/projects/scd/20240529_051742256_iOS.jpg"
