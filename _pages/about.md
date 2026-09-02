@@ -46,7 +46,7 @@ I am a 1st-year CSE PhD student at University of Michigan-Ann Arbor, advised by 
 My research interests lie in exploring various **sensing technologies** and creating innovative **wearables**, particularly for **healthcare** applications.
 
 
-Prior to UMich, I worked in [WI Lab](https://wearableintelligencelab.github.io/group_website/index.html) led by [Prof. Yiyue Luo](https://yyueluo.com/) at University of Washington, Seattle (UW). I also worked in [Ubiquitous Computing Lab](https://ubicomplab.cs.washington.edu/), led by [Prof. Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/), and [Prof. Shwetak Patel](https://www.cs.washington.edu/people/faculty/shwetak-patel/).
+Prior to UMich, I received my M.S. degree in ECE (DS option) from University of Washington, Seattle (UW). I was advised by [Prof. Yiyue Luo](https://yyueluo.com/) and worked in [WI Lab](https://wearableintelligencelab.github.io/group_website/index.html). I also worked in [Ubiquitous Computing Lab](https://ubicomplab.cs.washington.edu/), led by [Prof. Vikram Iyer](https://homes.cs.washington.edu/~vsiyer/), and [Prof. Shwetak Patel](https://www.cs.washington.edu/people/faculty/shwetak-patel/).
 
 
 I received my B.S. degree in EEE jointly offered by the University of Electronic and Science Technology of 
