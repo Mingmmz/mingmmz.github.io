@@ -56,10 +56,16 @@ Beyond engineering, I also designed an art installation "Soft Machine", an inter
 
 
 <style>
-  .news .table-responsive {
-    max-height: 320px !important;
-    overflow-y: auto !important;
-  }
+/* News scrolling */
+.news .table-responsive {
+  max-height: 320px !important;
+  overflow-y: auto !important;
+}
+
+/* More space between News and Selected Publications */
+.news {
+  margin-bottom: 4rem !important;
+}
 </style>
 
 <style>
