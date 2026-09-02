@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Bird Migration Visulization
+description: An interactive website to visulaize the migratioin trajectory of Nothern Fulmar, Thick-billed Murress, Northern Pintail, Buff-breasted Sandpiper, and Bar-tailed Godwits.
+img: assets/img/bird0.JPG
 importance: 2
-category: work
-giscus_comments: true
+category: MS
+giscus_comments: false
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Multifunctional Robot Design (UESTC-UoGJEP Creative Lab)
+description: A smart car for tracking, crossing bridge, and transporting a ball to a target location by Autonomous Control Design and ML Coding.								
+img: assets/img/projects/4 smart-car/IMG_7064.JPG
 importance: 3
-category: fun
+category: UG & iArt
 ---
 
 Every project has a beautiful feature showcase page.

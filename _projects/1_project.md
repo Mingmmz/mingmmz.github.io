@@ -57,7 +57,7 @@ Project presentation introducing the motivation, system design, and implementati
     <iframe
       src="{{ '/assets/img/projects/scd/2024 ENGINE Showcase Horizontal Poster.pdf' | relative_url }}"
       width="100%"
-      height="900px"
+      height="500px"
       style="border: none;"
       class="rounded z-depth-1">
     </iframe>
@@ -77,7 +77,20 @@ Poster presented at the 2024 UW ENGINE Showcase.
     {% include figure.liquid
       loading="eager"
       path="assets/img/projects/scd/20240528_215431227_iOS.jpg"
-      title="Mingzhuo Ma presenting the SCD project at the 2024 UW ENGINE Showcase"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/projects/scd/20240529_050326000_iOS.jpg"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/projects/scd/20240529_051742256_iOS.jpg"
       class="img-fluid rounded z-depth-1"
     %}
   </div>

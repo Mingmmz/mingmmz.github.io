@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+title: Find Your Sister! 
+description: A maze FPS game published on Roblox Studio, coorperated with Tencent Game Institute
+img: assets/img/projects/0 sister/IMG_7059.JPG
 importance: 2
-category: work
-giscus_comments: true
+category: UG & iArt
+giscus_comments: False
 ---
 
 Every project has a beautiful feature showcase page.

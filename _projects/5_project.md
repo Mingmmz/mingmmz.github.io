@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Five Notes
+description: An interactive music game promoting a traditional Chinese musical instrument “Bian Zhong (Chime)” through hand movements recognization with Leapmotion (Kinect for initial design), ESP8266 and an accelerometer with gyroscope
+img: assets/img/projects/3 five-notes/IMG_7061.JPG
 importance: 3
-category: fun
+category: UG & iArt
 ---
 
 Every project has a beautiful feature showcase page.

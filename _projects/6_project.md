@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Animal Rhapsody
+description: A creative animation designed for the campaign of Uniqlo UT shirts with Processing and p5js in 2022 National College Student Advertising Art Competition
+img: assets/img/projects/2 animal/IMG_7053.JPG
 importance: 4
-category: fun
+category: UG & iArt
 ---
 
 Every project has a beautiful feature showcase page.
