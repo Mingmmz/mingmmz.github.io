@@ -4,10 +4,10 @@ title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
-profile:
-  align: right
-  image: IMG_2851.JPG
-  image_circular: false # crops the image to make it circular
+profile: false
+  # align: right
+  # image: IMG_2851.JPG
+  # image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
@@ -27,6 +27,21 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
+<div class="profile float-right">
+  {% include figure.liquid
+    loading="eager"
+    path="assets/img/IMG_2851.JPG"
+    title="Mingzhuo Ma"
+    class="img-fluid z-depth-1 rounded"
+  %}
+
+  <div class="social profile-social">
+    <div class="contact-icons">
+      {% social_links %}
+    </div>
+  </div>
+</div>
+
 I am a 1st-year CSE PhD student at University of Michigan-Ann Arbor, advised by [Prof. Ke Sun](https://samsonsjarkal.github.io/KeSun/) and [Prof. Junyi Zhu](https://www.junyizhu.com/).
 My research interests lie in exploring various **sensing technologies** and creating innovative **wearables**, particularly for **healthcare** applications.
 
@@ -39,11 +54,6 @@ China (UESTC) and the University of Glasgow (UoG) in 2023, minoring in Interacti
 
 Beyond engineering, I also designed an art installation "Soft Machine", an interactive music game "Five Notes", and a Roblox maze FPS game "Find your Sister!". I attended the Chengdu Transcendental Implant Art Exhibition held by UESTC and Chongqing Times Art Museum as a young artist and interviewed by Chengdu TV in 2021.
 
-<div class="social">
-  <div class="contact-icons">
-    {% social_links %}
-  </div>
-</div>
 
 <style>
   .news .table-responsive {
@@ -53,6 +63,21 @@ Beyond engineering, I also designed an art installation "Soft Machine", an inter
 </style>
 
 <style>
+  .profile .profile-social .contact-icons {
+  justify-content: center;
+}
+
+/* optional: slightly smaller icons */
+.profile .profile-social .contact-icons a {
+  font-size: 2rem;
+}
+
+/* News scrolling */
+.news .table-responsive {
+  max-height: 320px !important;
+  overflow-y: auto !important;
+}
+
 /* ================================
    Capitalize homepage section titles
    ================================ */
