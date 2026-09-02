@@ -10,9 +10,49 @@ related_publications: false
 
 This is an **EE598 Capstone Project with Novo Nordisk** to develop a software platform for sickle cell disease (SCD) patients to find their best-matched healthcare providers and receive support from online communities.
 
-I led a team of seven graduate and undergraduate students and served as the **Point of Contact (PoC), UX/UI Designer, and Machine Learning Engineer** during this project.
+## Project Overview
 
-Key skills and tools included **UX/UI design, Figma, Python, and recommender systems**.
+<div class="row mt-3 mb-4">
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Role</strong></h5>
+        <p class="card-text">
+          Project Lead & PoC<br>
+          UX/UI Designer<br>
+          ML Engineer
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Team</strong></h5>
+        <p class="card-text">
+          Led a team of 7 graduate and undergraduate students
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title"><strong>Skills</strong></h5>
+        <p class="card-text">
+          Figma<br>
+          UX/UI Design<br>
+          Python<br>
+          Recommender Systems
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 ---
 

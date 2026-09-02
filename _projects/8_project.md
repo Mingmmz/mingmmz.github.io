@@ -3,7 +3,7 @@ layout: page
 title: Find Your Sister! 
 description: A maze FPS game published on Roblox Studio, coorperated with Tencent Game Institute
 img: assets/img/projects/0 sister/IMG_7059.JPG
-importance: 2
+importance: 6
 category: UG & iArt
 giscus_comments: False
 ---

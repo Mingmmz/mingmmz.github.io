@@ -3,7 +3,7 @@ layout: page
 title: Five Notes
 description: An interactive music game promoting a traditional Chinese musical instrument “Bian Zhong (Chime)” through hand movements recognization with Leapmotion (Kinect for initial design), ESP8266 and an accelerometer with gyroscope
 img: assets/img/projects/3 five-notes/IMG_7061.JPG
-importance: 3
+importance: 4
 category: UG & iArt
 ---
 
